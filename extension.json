@@ -1,0 +1,38 @@
+{
+	"name": "EmergencyBadge",
+	"version": "0.1.0",
+	"author": "Kol-Zchut",
+	"description": "Shows the 'שאגת הארי' badge next to the site logo on pages with content area 'מצב חירום'. Temporary feature — remove by disabling this extension.",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\EmergencyBadge\\": "src/"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "EmergencyBadgeHooks"
+	},
+	"HookHandlers": {
+		"EmergencyBadgeHooks": {
+			"class": "MediaWiki\\Extension\\EmergencyBadge\\Hooks"
+		}
+	},
+	"ResourceModules": {
+		"ext.emergencyBadge": {
+			"scripts": [
+				"resources/emergency-badge.js"
+			],
+			"styles": [
+				"resources/emergency-badge.less"
+			],
+			"skipFunction": "resources/emergency-badge-skip.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "WikiRights/EmergencyBadge"
+	},
+	"manifest_version": 2
+}
