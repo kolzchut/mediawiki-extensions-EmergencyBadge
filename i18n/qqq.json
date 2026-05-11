@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"emergencybadge-extensionname": "{{notranslate}} The name of the extension.",
+	"emergencybadge-extensiondesc": "Short description of the extension, shown on [[Special:Version]]."
+}

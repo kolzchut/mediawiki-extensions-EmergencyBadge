@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"emergencybadge-extensionname": "EmergencyBadge",
+	"emergencybadge-extensiondesc": "Shows the \"שאגת הארי\" badge next to the site logo on pages with content area \"מצב חירום\"."
+}

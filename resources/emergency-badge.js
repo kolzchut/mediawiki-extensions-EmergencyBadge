@@ -1,6 +1,6 @@
 ( function () {
 	const badge = document.createElement( 'span' );
-	badge.className = 'emergency-badge';
+	badge.className = 'ext-emergencyBadge';
 	badge.setAttribute( 'role', 'img' );
 	badge.setAttribute( 'aria-label', 'שאגת הארי' );
 
